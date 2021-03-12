@@ -21,14 +21,32 @@ body{
   background-color: rgba(255,255,255,0.5);
   padding: 40px;
   border-radius: 25px;
+  
 }
+
+.col{
+  margin-bottom: 20px;
+}
+
 .card{
   margin-bottom: 20px;
   border-radius: 25px;
 }
 
-.map{
+.wandern{
+  height: 95%;
+}
+
+.map-container{
+  height: 95%;
   border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.map{
+  overflow: auto;
+  border: 0;
 }
 
 .masthead {
@@ -46,4 +64,12 @@ body{
 
   .navbar-brand{
     margin-left: 20px;
+  }
+
+  .social{
+    background-color: violet;
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    padding: 20px;
   }
