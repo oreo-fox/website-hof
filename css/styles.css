@@ -8,18 +8,24 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
 }
 
+.heading{
+  margin-bottom: 30px;
+}
 
 .page-content{
   margin-top: 100px;
   justify-content: center;
   align-items: center;
+  overflow: auto;
+  padding-bottom: 180px
 }
 
 .content-center{
-  background-color: rgba(255,255,255,0.5);
-  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  padding: 50px;
   border-radius: 25px;
   
 }
@@ -72,4 +78,15 @@ body{
     height: 500px;
     border-radius: 25px;
     padding: 20px;
+  }
+
+  .app-container{
+    min-height: 100%;
+  }
+
+  .footer{
+    position: relative;
+    color: white;
+    /* negative value of footer height */
+    clear: both;
   }
